@@ -1,0 +1,124 @@
+ .slider-bottom-top h2 {
+     margin-top: 50px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ 
+ .slider-bottom-top .slider-bottom-img {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin-left: -115px;
+ }
+ 
+ .slider-bottom-img {
+     animation-name: rotate;
+     animation-duration: 0.7s;
+ }
+ 
+ @keyframes rotate {
+     0% {
+         transform: rotate(0);
+     }
+     100% {
+         transform: rotate(360deg);
+     }
+ }
+ /* sliding part end */
+ 
+ .slider-end-content h2 {
+     font-size: 18px;
+     font-weight: bold;
+ }
+ 
+ .slider-end-content p {
+     width: 200px;
+     text-align: center;
+     margin-left: 110px;
+ }
+ 
+ .font-awesome {
+     font-size: 40px;
+     color: cornflowerblue;
+     margin-top: 50px;
+ }
+ 
+ .font-awesome:hover {
+     color: dimgray;
+     transition: 1s;
+ }
+ /* all-kinds-top */
+ 
+ .all-kinds-top h1 {
+     margin-top: 40px;
+     justify-content: center;
+     font-weight: 700;
+ }
+ 
+ .all-kinds-top button {
+     margin-top: 30px;
+     background-color: cornflowerblue;
+     border-radius: 15px 15px;
+     padding: 8px;
+     color: #000;
+     font-weight: bold;
+     border: 0;
+     padding: 8px 14px;
+     margin-bottom: 30px;
+ }
+ 
+ .all-kinds-top button:hover {
+     background-color: chocolate;
+     color: #fff;
+     transition: 0.5s;
+ }
+ 
+ .product_heading h3 {
+     font-size: 30px;
+     font-weight: bold;
+     margin-top: 40px;
+ }
+ 
+ .product_heading p {
+     color: #303030;
+     font-size: 15px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     line-height: 1.6;
+ }
+ /* all_product_content */
+ 
+ .product_content p {
+     color: #303030;
+     font-size: 15px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     line-height: 1.6;
+     text-align: center;
+ }
+ 
+ .product_content h3 {
+     font-size: 22px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ 
+ .product_content img {
+     width: 100%;
+ }
+ 
+ .product_content button {
+     background-color: cornflowerblue;
+     border-radius: 15px 15px;
+     padding: 8px;
+     color: #000;
+     font-weight: bold;
+     border: 0;
+     padding: 8px 14px;
+     margin-bottom: 30px;
+ }
+ 
+ .product_content button:hover {
+     background-color: chocolate;
+     color: #fff;
+     transition: 0.5s;
+ }
